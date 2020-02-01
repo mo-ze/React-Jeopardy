@@ -18320,8 +18320,7 @@ function Modal(prop) {
     id: "btn" + name,
     className: "btn btn-primary",
     onClick: function onClick() {
-      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#btn" + name).removeClass('btn-primary'); // btn btn-light
-
+      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#btn" + name).removeClass('btn-primary');
       jquery__WEBPACK_IMPORTED_MODULE_1___default()("#btn" + name).addClass('btn-light');
     },
     "data-toggle": "modal",
@@ -18340,7 +18339,7 @@ function Modal(prop) {
     className: "modal-title"
   }, prop.cat + " " + prop.point)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "modal-body"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     id: "question",
     style: {
       margin: "2rem"
@@ -18352,10 +18351,10 @@ function Modal(prop) {
       margin: "2rem"
     }
   }, prop.ans, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "modal-footer"
+    className: "modal-footer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     onClick: function onClick(Event) {
-      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#ans" + name).toggle(); // Event.stopPropagation();
+      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#ans" + name).toggle();
     },
     className: "btn btn-primary"
   }, "reveal ans")))))));
