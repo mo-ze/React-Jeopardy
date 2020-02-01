@@ -18214,17 +18214,17 @@ var cat1 = [[// first category
   "ans": "a100"
 }, {
   "cat": "cat5",
-  "point": 100,
+  "point": 300,
   "q": "q100",
   "ans": "a100"
 }, {
   "cat": "cat5",
-  "point": 200,
+  "point": 400,
   "q": "q100",
   "ans": "a100"
 }, {
   "cat": "cat5",
-  "point": 100,
+  "point": 500,
   "q": "q100",
   "ans": "a100"
 }]];
@@ -18341,19 +18341,24 @@ function Modal(prop) {
   }, prop.cat + " " + prop.point)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "modal-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "question"
+    id: "question",
+    style: {
+      margin: "2rem"
+    }
   }, prop.q, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "ans" + name,
     style: {
-      display: 'none'
+      display: 'none',
+      margin: "2rem"
     }
-  }, prop.ans, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, prop.ans, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "modal-footer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     onClick: function onClick(Event) {
-      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#ans" + name).show();
-      Event.stopPropagation();
+      jquery__WEBPACK_IMPORTED_MODULE_1___default()("#ans" + name).toggle(); // Event.stopPropagation();
     },
     className: "btn btn-primary"
-  }, "reveal ans"))))));
+  }, "reveal ans")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Modal);

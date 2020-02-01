@@ -150,26 +150,24 @@ var cat1=[[
 },
 {
     "cat":"cat5",
-    "point":100,
+    "point":300,
     "q":"q100",
     "ans":"a100"
 },
 {
     "cat":"cat5",
-    "point":200,
+    "point":400,
     "q":"q100",
     "ans":"a100"
 },
 {
     "cat":"cat5",
-    "point":100,
+    "point":500,
     "q":"q100",
     "ans":"a100"
 }
+],
 
-
-
-]
 ]
 
 export default cat1;
