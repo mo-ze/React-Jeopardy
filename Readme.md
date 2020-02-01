@@ -5,5 +5,6 @@ DO **NOT** touch any other part unless you know what you are doing.
 
 Only Desktop Compatible
 
-
+### todo: 
+- [  ] implement timer for each modal
 
