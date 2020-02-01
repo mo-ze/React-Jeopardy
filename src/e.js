@@ -1,5 +1,5 @@
 var cat1=[[
-    // first category 
+    // first category
     {
     "cat":"cat1",
     "point":100,
@@ -32,9 +32,6 @@ var cat1=[[
 }
 ],
 
-
-
-// 
 [
     // second category
     {
@@ -68,9 +65,9 @@ var cat1=[[
     "ans":"answer 500"
 }
 ],
-// 
+//
 [
-    // third category 
+    // third category
     {
     "cat":"cat3",
     "point":100,
@@ -102,9 +99,9 @@ var cat1=[[
     "ans":"ans400"
 }
 ],
-// 
+//
 [
-    // fourth category 
+    // fourth category
     {
     "cat":"cat4",
     "point":100,
@@ -138,10 +135,16 @@ var cat1=[[
 ],
 //
 [
-    // fifth category 
+    // fifth category
     {
     "cat":"cat5",
     "point":100,
+    "q":"q100",
+    "ans":"a100"
+},
+{
+    "cat":"cat5",
+    "point":200,
     "q":"q100",
     "ans":"a100"
 },
@@ -151,6 +154,21 @@ var cat1=[[
     "q":"q100",
     "ans":"a100"
 },
+{
+    "cat":"cat5",
+    "point":200,
+    "q":"q100",
+    "ans":"a100"
+},
+{
+    "cat":"cat5",
+    "point":100,
+    "q":"q100",
+    "ans":"a100"
+}
+
+
+
 ]
 ]
 

@@ -18062,9 +18062,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 function Category(prop) {
-  var Style = {
-    "float": 'left'
-  }; // console.log(prop)
+  var Style = {}; // console.log(prop)
 
   var mod = [];
 
@@ -18096,7 +18094,7 @@ function Category(prop) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var cat1 = [[// first category 
+var cat1 = [[// first category
 {
   "cat": "cat1",
   "point": 100,
@@ -18122,8 +18120,7 @@ var cat1 = [[// first category
   "point": 500,
   "q": "question 500",
   "ans": "answer 500"
-}], // 
-[// second category
+}], [// second category
 {
   "cat": "cat2",
   "point": 100,
@@ -18149,8 +18146,8 @@ var cat1 = [[// first category
   "point": 500,
   "q": "question 500",
   "ans": "answer 500"
-}], // 
-[// third category 
+}], //
+[// third category
 {
   "cat": "cat3",
   "point": 100,
@@ -18176,8 +18173,8 @@ var cat1 = [[// first category
   "point": 500,
   "q": "q400",
   "ans": "ans400"
-}], // 
-[// fourth category 
+}], //
+[// fourth category
 {
   "cat": "cat4",
   "point": 100,
@@ -18204,10 +18201,25 @@ var cat1 = [[// first category
   "q": "q500",
   "ans": "ans500"
 }], //
-[// fifth category 
+[// fifth category
 {
   "cat": "cat5",
   "point": 100,
+  "q": "q100",
+  "ans": "a100"
+}, {
+  "cat": "cat5",
+  "point": 200,
+  "q": "q100",
+  "ans": "a100"
+}, {
+  "cat": "cat5",
+  "point": 100,
+  "q": "q100",
+  "ans": "a100"
+}, {
+  "cat": "cat5",
+  "point": 200,
   "q": "q100",
   "ans": "a100"
 }, {
@@ -18248,7 +18260,12 @@ function Grid() {
     }, _e_js__WEBPACK_IMPORTED_MODULE_1__["default"][i])));
   }
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, category);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row"
+    }
+  }, category);
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Grid);

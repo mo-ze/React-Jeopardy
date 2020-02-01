@@ -1,7 +1,8 @@
 import React from 'react';
 import Modal from "./modal.js"
 function Category(prop){
-    var Style={float:'left'}
+    var Style={
+  }
     // console.log(prop)
 
     let mod=[];
@@ -10,13 +11,13 @@ function Category(prop){
     }
     return(
      <div style={Style} >
-          <h4 style={{textAlign:"center"}}> {prop[0].cat} </h4> 
-        
+          <h4 style={{textAlign:"center"}}> {prop[0].cat} </h4>
+
         {mod}
-          
-        
+
+
      </div>
     );
-    
+
 }
 export default Category;
